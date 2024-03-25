@@ -1,0 +1,17 @@
+{
+  "name": "z-api-spam-offer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.7.0",
+    "google-spreadsheet": "^4.1.1"
+  }
+}
