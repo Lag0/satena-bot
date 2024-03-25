@@ -17,7 +17,7 @@ Planos futuros incluem a integração com outras plataformas de mensagens, supor
 1. **Clone o repositório**:
 
    ```
-   git clone https://github.com/lag0/satena-bot.git
+   git clone https://github.com/Lag0/satena-bot.git
    cd satena-bot
    ```
 
