@@ -13,7 +13,7 @@ const jwtClient = new JWT({
   key: config.GOOGLE_PRIVATE_KEY.replace(/\\n/g, "\n"),
   scopes: SCOPES,
 });
-const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEET_ID, jwtClient);
+const doc = new GoogleSpreadsheet(config.GOOGLE_SHEET_ID, jwtClient);
 
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
