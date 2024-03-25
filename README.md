@@ -38,7 +38,8 @@ Antes de utilizar o Satena Bot, uma configuração inicial é necessária.
 
 ### 2. Arquivo de Configuração `config.json`
 
-- Abra `config.json` no seu editor de texto favorito.
+- Abra `config-template.json` no seu editor de texto favorito.
+- Renomeie o arquivo para `config.json`.
 - Atualize com as informações específicas do seu projeto, como abaixo:
 
   ```json
